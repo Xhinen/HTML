@@ -9,7 +9,6 @@ body{
     background-color: #f4f4f4;
     color: #333;
 }
-
 header.cabecera{
     background-color: #1e1e2f;
     color: #fff;
@@ -32,11 +31,11 @@ header.cabecera{
     text-decoration: none;
     display: none;
     cursor: pointer;
-    transition: transform 0.3s ease;
+    transition: tranform 0.3s ease;
 }
 
 .boton-menu:hover{
-    transform: scale(1.1); /*10% apox*/
+    transform: scale(1.1); /*10% aprox*/
 }
 
 .menu-principal{
@@ -50,12 +49,12 @@ header.cabecera{
     font-size: 16px;
     padding: 10px 14px;
     border-radius: 6px;
-    transition: background 0.3s, color 0.3s
+    transition: background 0.3s, color 0.3s;
 }
 
 .menu-principal a:hover{
     background-color: #292945;
-    color: #fff;
+    color:fff;
 }
 
 @media screen and (max-width: 770px) {
@@ -66,10 +65,10 @@ header.cabecera{
     .menu-principal{
         display: none;
         flex-direction: column;
-        gap: 12px;/*espacio vertical*/
+        gap: 12px;
         background-color: #292945;
         position: absolute;
-        top: 100%;
+        top:100%;
         right: 0;
         left: 0;
         padding: 15px 20px;
@@ -79,11 +78,7 @@ header.cabecera{
 
     .menu-principal.menu-desplegado{
         display: flex;
-        
     }
-/*     .menu-principal.menu-desplegado:hover{
-        background-color: #1e1e2f;
-    } */
 
 }
 
