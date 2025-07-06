@@ -1,6 +1,6 @@
 //MENU RESPONSIVE
 const toggle = document.getElementById("menu-toggle");
-const mobileNav = document.getElementByI("mobile-nav");
+const mobileNav = document.getElementById("mobile-nav");
 toggle.addEventListener("click", function(){
     mobileNav.classList.toggle("show")
 });
