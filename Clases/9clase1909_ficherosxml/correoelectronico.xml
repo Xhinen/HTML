@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<correosAlberto>
+    <email fecha="20-02-2023 12:00:00UTC">
+        <de>alberto86.mr@gmail.com</de>
+        <para>pepe.ramirez@thepower.com</para>
+        <cc>maria.bachot@thepower.com</cc>
+        <cco></cco>
+        <asunto>taller XML</asunto>
+        <mensaje>hola quiero haceros una...</mensaje>
+        <firma>Alberto Mira</firma>
+        <importancia/>
+    </email>
+</correosAlberto>

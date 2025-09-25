@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<empresa>
+    <empleados>
+        <primerNombre>Pepe</primerNombre>
+        <apellido>Garcia</apellido>
+        <numeroCuenta>745745745784684</numeroCuenta>
+        <correo>pepe.garcia@thepower.com</correo>
+        <direccion>
+            <ciudad>Madrid</ciudad>
+            <estado>España</estado>
+            <zip>28034</zip>
+        </direccion>
+    </empleados>
+</empresa>
