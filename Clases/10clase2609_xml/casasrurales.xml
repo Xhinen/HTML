@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE casas_rurales SYSTEM "casasrurales.dtd">
+<casas_rurales>
+    <casa id="A1">
+        <direccion></direccion>
+        <descripcion></descripcion>
+        <estado></estado>
+        <tamanio></tamanio>
+        <disponible></disponible>
+    </casa>
+    <casa id="A2">
+        <direccion></direccion>
+        <descripcion></descripcion>
+        <estado></estado>
+        <hectareas></hectareas>
+        <disponible></disponible>
+    </casa>
+</casas_rurales>

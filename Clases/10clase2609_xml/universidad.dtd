@@ -1,0 +1,31 @@
+<!-- Modela la matrícula de asignaturas en un XML con un DTD externo universidad.dtd.
+
+Requisitos:
+
+Raíz: <universidad>
+
+Estructura: (asignaturas, alumnos, matriculas)
+
+<asignaturas> contiene una o más <asignatura> con atributo @id (tipo ID)
+
+<alumnos> contiene uno o más <alumno> con atributo @nia (tipo ID)
+
+<matriculas> contiene una o más <matricula> con atributos:
+
+alumno (tipo IDREF)
+
+asignatura (tipo IDREF) -->
+<!ELEMENT universidad (asignaturas, alumnos, matriculas)>
+<!ELEMENT asignaturas (asignatura+)>
+<!ELEMENT asignatura (nombre, creditos)>
+<!ATTLIST asignatura id ID #REQUIRED>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT creditos (#PCDATA)>
+
+<!ELEMENT alumnos (alumno+)>
+<!ELEMENT alumno (nombre)>
+<!ATTLIST alumno nia ID #REQUIRED>
+
+<!ELEMENT matriculas (matricula+)>
+<!ELEMENT matricula EMPTY>
+<!ATTLIST matricula alumno IDREF #REQUIRED asignatura IDREF #REQUIRED>

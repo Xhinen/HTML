@@ -1,0 +1,9 @@
+<!ELEMENT casas_rurales (casa+)>
+<!ELEMENT casa (direccion, descripcion?, estado, (tamanio | hectareas), disponible)>
+<!ATTLIST casa id ID #REQUIRED>
+<!ELEMENT direccion (#PCDATA)>
+<!ELEMENT descripcion (#PCDATA)>
+<!ELEMENT estado (#PCDATA)>
+<!ELEMENT tamanio (#PCDATA)>
+<!ELEMENT disponible (#PCDATA)>
+<!ELEMENT hectareas (#PCDATA)> <!-- Se puede utilizar EMPTY (sin paréntesis) para declarar un datos vacío -->

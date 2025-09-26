@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE universidad SYSTEM "universidad.dtd">
+
+<!-- Modela la matrícula de asignaturas en un XML con un DTD externo universidad.dtd.
+
+Requisitos:
+
+Raíz: <universidad>
+
+Estructura: (asignaturas, alumnos, matriculas)
+
+<asignaturas> contiene una o más <asignatura> con atributo @id (tipo ID)
+
+<alumnos> contiene uno o más <alumno> con atributo @nia (tipo ID)
+
+<matriculas> contiene una o más <matricula> con atributos:
+
+alumno (tipo IDREF)
+
+asignatura (tipo IDREF) -->
+<universidad>
+    <asignaturas></asignaturas>
+    <alumnos>
+        <alumno></alumno>
+    </alumnos>
+    <matriculas>
+        <matricula></matricula>
+    </matriculas>
+</universidad>

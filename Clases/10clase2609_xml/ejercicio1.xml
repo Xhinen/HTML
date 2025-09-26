@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE empresa SYSTEM "ejercicio1.dtd">
+<empresa>
+    <empleado id="e1">
+        <nombre></nombre>
+        <puesto></puesto>
+        
+    </empleado>
+</empresa>
