@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<marcadores xmlns:xsi="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="ejemplo1.xsd">
+    <pagina>
+        <nombre>Abrir Llave</nombre>
+        <descipcion></descipcion>
+        <url>https://www.ejemplo.com</url>
+    </pagina>
+    <pagina>
+        <nombre>Abrir Llave</nombre>
+        <descipcion></descipcion>
+        <url>https://www.ejemplo.com</url>
+    </pagina>
+    <pagina>
+        <nombre>Abrir Llave</nombre>
+        <descipcion></descipcion>
+        <url>https://www.ejemplo.com</url>
+    </pagina>
+</marcadores>
