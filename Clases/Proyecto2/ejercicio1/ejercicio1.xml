@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <!DOCTYPE catalogo SYSTEM "ejercicio1.dtd"> -->
+<catalogo fecha="2025-10-04" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ejercicio1.xsd">
+
+    <libros>
+        <libro id="L01" categoria="novela" isbn="9780306406157" paginas="352">
+            <titulo>La sombra del viento</titulo>
+            <anio>2001</anio>
+            <autores>
+                <autor>
+                <nombre>Carlos Ruiz Zafón</nombre>
+                <orcid>0000-0002-1825-0097</orcid>
+                </autor>
+            </autores>
+            <etiquetas>
+                <etiqueta>misterio</etiqueta>
+                <etiqueta>barcelona</etiqueta>
+            </etiquetas>
+        </libro>
+
+        <libro id="L02" categoria="tecnico" isbn="9780134685991">
+            <titulo>Effective Java</titulo>
+            <anio>2018</anio>
+            <autores>
+                <autor>
+                    <nombre>Joshua Bloch</nombre>
+                </autor>
+            </autores>
+        </libro>
+    </libros>
+
+    <revistas>
+        <revista id="R01" area="computacion" issn="1234-567X" numero="42">
+            <titulo>Journal of Programming</titulo>
+            <anio>2024</anio>
+        </revista>
+    </revistas>
+
+    <usuarios>
+        <usuario id="U01" tipo="alumno">
+            <nombre>Raúl Albiol</nombre>
+            <email>raul@example.edu</email>
+        </usuario>
+        <usuario id="U02" tipo="profesor">
+            <nombre>Marta Ibáñez</nombre>
+            <email>marta.ibanez@uax.es</email>
+        </usuario>
+    </usuarios>
+
+    <prestamos>
+        <prestamo id="P01" itemRef="L01" usuarioRef="U01">
+            <fecha_inicio>2025-09-20</fecha_inicio>
+            <fecha_fin>2025-10-05</fecha_fin>
+            <estado>devuelto</estado>
+        </prestamo>
+        
+        <prestamo id="P02" itemRef="R01" usuarioRef="U02">
+            <fecha_inicio>2025-09-28</fecha_inicio>
+            <estado>en_curso</estado>
+        </prestamo>
+    </prestamos>
+
+</catalogo>

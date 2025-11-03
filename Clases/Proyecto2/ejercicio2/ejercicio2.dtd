@@ -1,0 +1,49 @@
+<!ELEMENT plataforma (cursos, alumnos, matriculas, evaluaciones)>
+<!ATTLIST plataforma
+fecha_publicacion CDATA #REQUIRED
+>
+<!-- CURSOS -->
+<!ELEMENT cursos (curso+)>
+<!ELEMENT curso (titulo, nivel, modalidad, horas, modulos?)>
+<!ATTLIST curso
+id ID #REQUIRED
+codigo CDATA #IMPLIED
+>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT nivel (#PCDATA)>
+<!ELEMENT modalidad (#PCDATA)>
+<!ELEMENT horas (#PCDATA)>
+<!ELEMENT modulos (modulo+)>
+<!ELEMENT modulo (nombre, horas)>
+<!ATTLIST modulo
+clave CDATA #IMPLIED
+>
+<!ELEMENT nombre (#PCDATA)>
+<!-- ALUMNOS -->
+<!ELEMENT alumnos (alumno+)>
+<!ELEMENT alumno (nombre, email, telefono?)>
+<!ATTLIST alumno
+id ID #REQUIRED
+nif CDATA #IMPLIED
+>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT telefono (#PCDATA)>
+<!-- MATRICULAS -->
+<!ELEMENT matriculas (matricula+)>
+<!ELEMENT matricula (fecha_alta, estado)>
+<!ATTLIST matricula
+id ID #REQUIRED
+alumnoRef IDREF #REQUIRED
+cursoRef IDREF #REQUIRED
+>
+<!ELEMENT fecha_alta (#PCDATA)>
+<!ELEMENT estado (#PCDATA)>
+<!-- EVALUACIONES -->
+<!ELEMENT evaluaciones (evaluacion+)>
+<!ELEMENT evaluacion (instrumento, convocatoria, nota)>
+<!ATTLIST evaluacion
+id ID #REQUIRED
+matriculaRef IDREF #REQUIRED>
+<!ELEMENT instrumento (#PCDATA)>
+<!ELEMENT convocatoria (#PCDATA)>
+<!ELEMENT nota (#PCDATA)>

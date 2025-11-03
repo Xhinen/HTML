@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- <!DOCTYPE plataforma SYSTEM "ejercicio2.dtd"> -->
+<plataforma fecha_publicacion="2025-02-18" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ejercicio2.xsd">
+    <cursos>
+        <curso id="A" codigo="string">
+            <titulo>string</titulo>
+            <nivel>string</nivel>
+            <modalidad>string</modalidad>
+            <horas>string</horas>
+            <modulos>
+                <modulo>
+                    <nombre>string</nombre>
+                    <horas>string</horas>
+                </modulo>
+            </modulos>
+        </curso>
+
+        <curso id="B" codigo="string">
+            <titulo>string</titulo>
+            <nivel>string</nivel>
+            <modalidad>string</modalidad>
+            <horas>string</horas>
+            <modulos>
+                <modulo>
+                    <nombre>string</nombre>
+                    <horas>string</horas>
+                </modulo>
+            </modulos>
+        </curso>
+    
+        <curso id="C" codigo="string">
+            <titulo>string</titulo>
+            <nivel>string</nivel>
+            <modalidad>string</modalidad>
+            <horas>string</horas>
+            <modulos>
+                <modulo>
+                    <nombre>string</nombre>
+                    <horas>string</horas>
+                </modulo>
+            </modulos>
+        </curso>
+
+    </cursos>
+
+    <alumnos>
+        <alumno id="AA">
+            <nombre>string</nombre>
+            <email>string</email>
+        </alumno>
+
+        <alumno id="BB">
+            <nombre>string</nombre>
+            <email>string</email>
+        </alumno>
+
+        <alumno id="CC">
+            <nombre>string</nombre>
+            <email>string</email>
+        </alumno>
+    </alumnos>
+
+    <matriculas>
+        <matricula id="AAA" alumnoRef="AA" cursoRef="A">
+            <fecha_alta>string</fecha_alta>
+            <estado>string</estado>
+        </matricula>
+
+        <matricula id="BBB" alumnoRef="BB" cursoRef="B">
+            <fecha_alta>string</fecha_alta>
+            <estado>string</estado>
+        </matricula>
+
+        <matricula id="CCC" alumnoRef="BB" cursoRef="C">
+            <fecha_alta>string</fecha_alta>
+            <estado>string</estado>
+        </matricula>
+    </matriculas>
+
+    <evaluaciones>
+        <evaluacion id="AAAA" matriculaRef="AAA">
+            <instrumento>string</instrumento>
+            <convocatoria>string</convocatoria>
+            <nota>string</nota>
+        </evaluacion>
+
+        <evaluacion id="BBBB" matriculaRef="BBB">
+            <instrumento>string</instrumento>
+            <convocatoria>string</convocatoria>
+            <nota>string</nota>
+        </evaluacion>
+
+        <evaluacion id="CCCC" matriculaRef="CCC">
+            <instrumento>string</instrumento>
+            <convocatoria>string</convocatoria>
+            <nota>string</nota>
+        </evaluacion>
+    </evaluaciones>
+</plataforma>

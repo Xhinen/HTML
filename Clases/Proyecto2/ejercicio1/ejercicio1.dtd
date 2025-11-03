@@ -1,0 +1,79 @@
+<!ELEMENT catalogo (libros,revistas,usuarios,prestamos)>
+<!ATTLIST catalogo xmlns CDATA #FIXED '' fecha CDATA #REQUIRED>
+
+<!ELEMENT libros (libro+)>
+<!ATTLIST libros xmlns CDATA #FIXED ''>
+
+<!ELEMENT revistas (revista)> <!-- Aqui no estaba seguro si añadirle cardinalidad "+" ya que a pesar de que hay solo un elemente "revistas" en el futuro podría haber mas -->
+<!ATTLIST revistas xmlns CDATA #FIXED ''>
+
+<!ELEMENT usuarios (usuario+)>
+<!ATTLIST usuarios xmlns CDATA #FIXED ''>
+
+<!ELEMENT prestamos (prestamo+)>
+<!ATTLIST prestamos xmlns CDATA #FIXED ''>
+
+<!ELEMENT libro (titulo,anio,autores,etiquetas?)>
+<!ATTLIST libro
+  xmlns CDATA #FIXED ''
+  categoria CDATA #REQUIRED
+  id ID #REQUIRED
+  isbn CDATA #REQUIRED
+  paginas CDATA #IMPLIED>
+
+<!ELEMENT revista (titulo,anio)>
+<!ATTLIST revista
+  xmlns CDATA #FIXED ''
+  area CDATA #REQUIRED
+  id ID #REQUIRED
+  issn CDATA #REQUIRED
+  numero CDATA #REQUIRED>
+
+<!ELEMENT usuario (nombre,email)>
+<!ATTLIST usuario
+  xmlns CDATA #FIXED ''
+  id ID #REQUIRED
+  tipo CDATA #REQUIRED>
+
+<!ELEMENT prestamo (fecha_inicio,fecha_fin?,estado)>
+<!ATTLIST prestamo
+  xmlns CDATA #FIXED ''
+  id ID #REQUIRED
+  itemRef IDREF #REQUIRED
+  usuarioRef IDREF #REQUIRED>
+
+<!ELEMENT autores (autor)>
+<!ATTLIST autores xmlns CDATA #FIXED ''>
+
+<!ELEMENT etiquetas (etiqueta+)>
+<!ATTLIST etiquetas xmlns CDATA #FIXED ''>
+
+<!ELEMENT email (#PCDATA)>
+<!ATTLIST email xmlns CDATA #FIXED ''>
+
+<!ELEMENT fecha_inicio (#PCDATA)>
+<!ATTLIST fecha_inicio xmlns CDATA #FIXED ''>
+
+<!ELEMENT fecha_fin (#PCDATA)>
+<!ATTLIST fecha_fin xmlns CDATA #FIXED ''>
+
+<!ELEMENT estado (#PCDATA)>
+<!ATTLIST estado xmlns CDATA #FIXED ''>
+
+<!ELEMENT autor (nombre,orcid?)>
+<!ATTLIST autor xmlns CDATA #FIXED ''>
+
+<!ELEMENT etiqueta (#PCDATA)>
+<!ATTLIST etiqueta xmlns CDATA #FIXED ''>
+
+<!ELEMENT orcid (#PCDATA)>
+<!ATTLIST orcid xmlns CDATA #FIXED ''>
+
+<!ELEMENT titulo (#PCDATA)>
+<!ATTLIST titulo xmlns CDATA #FIXED ''>
+
+<!ELEMENT anio (#PCDATA)>
+<!ATTLIST anio xmlns CDATA #FIXED ''>
+
+<!ELEMENT nombre (#PCDATA)>
+<!ATTLIST nombre xmlns CDATA #FIXED ''>

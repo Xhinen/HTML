@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- <!DOCTYPE plataforma SYSTEM "ejercicio3.dtd"> -->
+<library xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ejercicio3.xsd">
+    <book>
+        <title>Solo Leveling</title>
+        <author>Chungong</author>
+        <year>2021</year>
+        <publisher>Norma Editorial</publisher>
+        <pages>320</pages>
+    </book>
+
+    <book>
+        <title>Sword Art Online Progressive (Novela)</title>
+        <author>Reki Kawahara</author>
+        <year>2020</year>
+        <publisher>Planeta</publisher>
+        <pages>512</pages>
+    </book>
+
+    <book>
+        <title>La Historia Interminable</title>
+        <author>Michael Ende</author>
+        <year>1982</year>
+        <publisher>Circulo de Lectores</publisher>
+        <pages>400</pages>
+    </book>
+</library>
