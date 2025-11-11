@@ -1,4 +1,4 @@
-<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
     <xs:element name="catalogo">
         <xs:complexType>
             <xs:sequence>
@@ -9,7 +9,7 @@
                                 <xs:complexType>
                                     <xs:sequence>
                                         <xs:element type="xs:string" name="titulo"/>
-                                        <xs:element type="xs:short" name="anio"/>
+                                        <xs:element type="xs:integer" name="anio"/>
 
                                         <xs:element name="autores">
                                             <xs:complexType>
@@ -37,7 +37,7 @@
 
                                     <xs:attribute type="xs:string" name="id" use="optional"/>
                                     <xs:attribute type="xs:string" name="categoria" use="optional"/>
-                                    <xs:attribute type="xs:long" name="isbn" use="optional"/>
+                                    <xs:attribute type="xs:integer" name="isbn" use="optional"/>
                                     <xs:attribute type="xs:short" name="paginas" use="optional"/>
                                 </xs:complexType>
                             </xs:element>
@@ -58,7 +58,7 @@
                                     <xs:attribute type="xs:string" name="id"/>
                                     <xs:attribute type="xs:string" name="area"/>
                                     <xs:attribute type="xs:string" name="issn"/>
-                                    <xs:attribute type="xs:byte" name="numero"/>
+                                    <xs:attribute type="xs:integer" name="numero"/>
                                 </xs:complexType>
                             </xs:element>
                         </xs:sequence>

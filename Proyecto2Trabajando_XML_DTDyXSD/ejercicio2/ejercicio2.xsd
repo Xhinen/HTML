@@ -79,7 +79,9 @@
                 <xs:element minOccurs="0" ref="telefono"/>
             </xs:sequence>
 
-            <xs:attribute name="id" use="required" type="xs:ID"/>
+            <xs:attribute name="id" use="required" type="xs:ID"/> 
+            <!-- aunque type:xs:ID no esta en la chuleta lo he tenido que añadir para que el xml no me diera error entiendo que el error a aparece ya que 
+             este xs:ID si está en el dtd, que aparece como id ID #REQUIRED -->
             <xs:attribute name="nif"/>
         </xs:complexType>
     </xs:element>
@@ -106,6 +108,8 @@
 
             <xs:attribute name="id" use="required" type="xs:ID"/>
             <xs:attribute name="alumnoRef" use="required" type="xs:IDREF"/>
+            <!-- Misma situación que con xs:ID, en el dtd aparace cursoRef IDREF #REQUIRED, aunque en este caso si podría usar xs:string no tiene mucho sentido
+             ya que se entiende que IDREF son valores únicos -->
             <xs:attribute name="cursoRef" use="required" type="xs:IDREF"/>
         </xs:complexType>
     </xs:element>
