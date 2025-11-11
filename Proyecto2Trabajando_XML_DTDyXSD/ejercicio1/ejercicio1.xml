@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- <!DOCTYPE catalogo SYSTEM "ejercicio1.dtd"> -->
+<!-- https://github.com/Xhinen/HTML/tree/master/Proyecto2Trabajando_XML_DTDyXSD -->
 <catalogo fecha="2025-10-04" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ejercicio1.xsd">
 
     <libros>
