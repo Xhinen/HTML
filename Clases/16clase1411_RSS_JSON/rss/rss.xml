@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Prometeo</title> <!-- obligatorio -->
+        <link>https://prometeo.es</link> <!-- obligatorio -->
+        <description>Centro lider de formación profesional en España</description> <!-- obligatorio -->
+        <lastbuildDate>Sun, 16 Feb 2025 06:01:46 +0000</lastbuildDate>
+        <language>es</language>
+        <item>
+            <title>Montaje de un ordenador de sobremesa: Paso a Paso</title> <!-- obligatorio -->
+            <link>https://prometeo.es/montaje-ordenador-sobremesa-pasos-a-seguir/</link> <!-- obligatorio -->
+            <pubDate>Fri, 14 Feb 2025 12:53:30 +0000</pubDate>
+            <category>Hardware</category>
+            <guid>https://prometeo.es/?p=20918</guid>
+            <description> <!-- obligatorio -->
+                <p>Aprende a montar una ordenador de sobremesa paso a paso: herramientas necesarios, precauciones a tener en cuenta y pasos de instalación</p>
+                <p>La entrada<a href="">Montaje de un ordenador de sobremesa: pasos a seguir</a></p>
+            </description>
+        </item>
+    </channel>
+</rss>
