@@ -4,6 +4,6 @@
     <empleado id="e1">
         <nombre></nombre>
         <puesto></puesto>
-        
+        <salario moneda="EUR"></salario>
     </empleado>
 </empresa>
