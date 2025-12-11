@@ -1,0 +1,22 @@
+.navbar > p{ /* solo afecta a los hijos directos del elemento padre */
+    color: blue;
+}
+.navbar p{ /* afecta a todos los elementos p dentro del elemento padre */
+    color: red;
+}
+/* ~ */
+#titulo ~ p{
+    color: green;
+}
+/* + */
+#titulo + p{
+    color: orange;
+}
+/* todos lo p del elemento clase div se ven afectados */
+.div p{
+    color: red;
+}
+/* todo lo que tenga la clase .clase dentro de la clase .div */
+.div .clase{
+    color: purple;
+}

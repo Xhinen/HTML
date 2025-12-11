@@ -1,0 +1,20 @@
+{
+  "centro": "Prometeo FP",
+  "sedes": ["Caja Mágica", "Arturo Soria", "Carabanchel"],
+  "alumnos": [
+    {
+      "id": 101,
+      "nombre": "María López",
+      "ciclo": "1º ASIR",
+      "sede": "Caja Mágica",
+      "modulos": ["Redes", "Sistemas Operativos", "Aplicaciones Web"]
+    },
+    {
+      "id": 102,
+      "nombre": "Iván García",
+      "ciclo": "1º DAM",
+      "sede": "Arturo Soria",
+      "modulos": ["Programación", "Bases de Datos", "Entornos de Desarrollo"]
+    }
+  ]
+}

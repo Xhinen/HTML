@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<prometeo_fp>
+  <centro>Prometeo FP</centro>
+
+  <sedes>
+    <sede>Caja Mágica</sede>
+    <sede>Arturo Soria</sede>
+    <sede>Carabanchel</sede>
+  </sedes>
+
+  <alumnos>
+    <alumno id="101">
+      <nombre>María López</nombre>
+      <ciclo>1º ASIR</ciclo>
+      <sede>Caja Mágica</sede>
+      <modulos>
+        <modulo>Redes</modulo>
+        <modulo>Sistemas Operativos</modulo>
+        <modulo>Aplicaciones Web</modulo>
+      </modulos>
+    </alumno>
+
+    <alumno id="102">
+      <nombre>Iván García</nombre>
+      <ciclo>1º DAM</ciclo>
+      <sede>Arturo Soria</sede>
+      <modulos>
+        <modulo>Programación</modulo>
+        <modulo>Bases de Datos</modulo>
+        <modulo>Entornos de Desarrollo</modulo>
+      </modulos>
+    </alumno>
+  </alumnos>
+</prometeo_fp>
